@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- for charts  -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <style>
+      * {
+        font-family: poppins;
+      }
+    </style>
+    <!-- header section  -->
+    <div class="flex justify-center my-2 w-full text-center mb-5">
+      <div class="w-full md:w-1/2">
+        <div class="mb-2 font-bold text-xl md:text-2xl lg:text-5xl">
+          The most transparent & secure banking ever
+        </div>
+        <div class="text-xs text-gray-500 mb-4">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia
+          voluptates, rerum rem, debitis provident quo voluptatum, molestias
+          possimus quis.
+        </div>
+        <div class="flex items-center justify-center">
+          <button class="mx-1 rounded p-2 bg-purple-600 text-white">
+            Order Now
+          </button>
+          <button
+            class="mx-1 rounded p-2 bg-transparent border text-black border-gray-300"
+          >
+            Learn More
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- header section ends  -->
+    <!--  header image section  -->
+    <div class="p-5 md:flex md:justify-center mb-5">
+      <div class="md:relative">
+        <img
+          src="https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          class="rounded-lg h-full md:h-[500px] md:w-full lg:w-[900px]"
+        />
+        <!-- absolute image 1  -->
+        <div
+          class="hidden md:block md:absolute top-5 left-[-50px] shadow card rounded-full bg-white"
+        >
+          <div class="flex items-center p-2">
+            <div class="bg-purple-600 p-1 shadow rounded-full">
+              <img
+                src="https://pngimg.com/d/industrial_worker_PNG11449.png"
+                class="w-[25px] rounded-full"
+              />
+            </div>
+            <div class="mx-2">
+              <div class="text-black text-xl mb-1">Lorem ipsum dolor sit</div>
+              <div class="text-gray-500 text-xs">
+                Lorem ipsum dolor sit, amet consectetur
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- absolute image 2  -->
+        <div
+          class="hidden md:block absolute bottom-5 right-[-140px] shadow card rounded-full bg-white"
+        >
+          <div class="flex items-center p-2">
+            <div class="bg-green-600 p-1 shadow rounded-full">
+              <img
+                src="https://www.pngmart.com/files/15/Smiling-Business-Man-Standing-PNG-Image.png"
+                class="w-[25px] rounded-full"
+              />
+            </div>
+            <div class="mx-2">
+              <div class="text-black text-xl mb-1">Lorem ipsum dolor sit</div>
+              <div class="text-gray-500 text-xs">
+                Lorem ipsum dolor sit, amet consectetur
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- absolute image 2  -->
+        <div
+          class="hidden md:block md:absolute top-[-45px] p-3 right-[-130px] shadow card rounded-lg bg-white"
+        >
+          <div class="text-xs text-gray-500 my-1">Lorem ipsum donor</div>
+          <div class="text-xl font-medium">$54.698</div>
+
+          <img
+            src="https://img.freepik.com/premium-vector/swoosh-line-underline-curly-calligraphy-stroke-elegant-decoration-drawn-swirl_165079-180.jpg"
+            class="mt-5 h-[30px] w-full"
+          />
+          <div class="flex items-center p-2 mt-[80px] m">
+            <div class="bg-purple-600 p-1 shadow rounded-full">
+              <img
+                src="https://pngimg.com/d/industrial_worker_PNG11449.png"
+                class="w-[25px] rounded-full"
+              />
+            </div>
+            <div class="mx-2">
+              <div class="text-black text-xl mb-1">Lorem ipsum dolor sit</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- header image section ends  -->
+
+    <!-- features section  -->
+    <div class="p-3 bg-sky-50">
+      <!-- companies logo  -->
+      <div class="p-5 mb-5 flex flex-wrap justify-center gap-16 items-center">
+        <div class="mx-2 text-lg font-bold">Trusted by</div>
+        <div class="mx-2">
+          <img
+            src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c51f.png"
+            class="w-[80px]"
+          />
+        </div>
+        <div class="mx-2">
+          <img
+            src=" https://logohistory.net/wp-content/uploads/2022/10/Facebook-Logo.png"
+            class="w-[80px]"
+          />
+        </div>
+        <div class="mx-2">
+          <img
+            src="https://www.freeiconspng.com/thumbs/youtube-logo-png/youtube-logo-png-transparent-image-5.png"
+            class="w-[80px]"
+          />
+        </div>
+        <div class="mx-2">
+          <img
+            src="https://www.pngmart.com/files/22/Logo-Pinterest-PNG-Picture.png"
+            class="w-[80px]"
+          />
+        </div>
+        <div class="mx-2">
+          <img
+            src="https://www.edigitalagency.com.au/wp-content/uploads/Linkedin-logo-png.png"
+            class="w-[80px]"
+          />
+        </div>
+      </div>
+      <!-- companies logo end  -->
+      <div class="flex justify-center my-2 w-full text-center mb-5">
+        <div class="w-full md:w-1/2">
+          <div class="mb-2 font-bold text-xl md:text-2xl lg:text-5xl">
+            The features that make our bank unique
+          </div>
+          <div class="text-xs text-gray-500 mb-4">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia
+            voluptates, rerum rem, debitis provident quo voluptatum, molestias
+            possimus quis.
+          </div>
+        </div>
+      </div>
+      <!-- features list  -->
+      <div class="flex flex-wrap justify-center gap-16 items-center mb-[45px]">
+        <!-- item 1  -->
+        <div class="text-center md:w-[300px] w-full">
+          <div class="">
+            <i
+              class="rounded-full bg-purple-600 p-2 text-white fa-solid fa-headphones"
+            ></i>
+          </div>
+          <div class="text-black text-xl mb-1">Lorem ipsum</div>
+          <div class="text-gray-500 text-xs">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia
+            voluptates, rerum rem,
+          </div>
+        </div>
+        <!-- item 2  -->
+        <div class="text-center md:w-[300px] w-full">
+          <div class="">
+            <i
+              class="rounded-full bg-purple-600 p-2 text-white fa-solid fa-server"
+            ></i>
+          </div>
+          <div class="text-black text-xl mb-1">Lorem ipsum</div>
+          <div class="text-gray-500 text-xs">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia
+            voluptates, rerum rem,
+          </div>
+        </div>
+        <!-- item 3  -->
+        <div class="text-center md:w-[300px] w-full">
+          <div class="">
+            <i
+              class="bg-purple-600 p-2 text-white fa-regular rounded-full fa-keyboard"
+            ></i>
+          </div>
+          <div class="text-black text-xl mb-1">Lorem ipsum</div>
+          <div class="text-gray-500 text-xs">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia
+            voluptates, rerum rem,
+          </div>
+        </div>
+
+        <!-- item 4  -->
+        <div class="text-center md:w-[300px] w-full">
+          <div class="">
+            <i
+              class="fa-solid fa-camera rounded-full bg-purple-600 p-2 text-white"
+            ></i>
+          </div>
+          <div class="text-black text-xl mb-1">Lorem ipsum</div>
+          <div class="text-gray-500 text-xs">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia
+            voluptates, rerum rem,
+          </div>
+        </div>
+        <!-- item 5  -->
+        <div class="text-center md:w-[300px] w-full">
+          <div class="">
+            <i
+              class="bg-purple-600 p-2 text-white rounded-full fa-solid fa-database"
+            ></i>
+          </div>
+          <div class="text-black text-xl mb-1">Lorem ipsum</div>
+          <div class="text-gray-500 text-xs">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia
+            voluptates, rerum rem,
+          </div>
+        </div>
+        <!-- item 6  -->
+        <div class="text-center md:w-[300px] w-full">
+          <div class="">
+            <i
+              class="bg-purple-600 p-2 text-white rounded-full fa-brands fa-windows"
+            ></i>
+          </div>
+          <div class="text-black text-xl mb-1">Lorem ipsum</div>
+          <div class="text-gray-500 text-xs">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia
+            voluptates, rerum rem,
+          </div>
+        </div>
+      </div>
+      <!-- features list end -->
+      <div class="flex items-center justify-center">
+        <button class="mx-1 rounded p-2 bg-purple-600 text-white">
+          Order Now
+        </button>
+        <button
+          class="animate-bounce mx-1 rounded p-2 bg-white border text-black border-gray-300"
+        >
+          Learn More
+        </button>
+      </div>
+    </div>
+
+    <!-- features section  end -->
+    <!-- upcomming features -->
+    <div class="bg-black p-5 h-full md:h-[700px]">
+      <div class="md:flex md:items-center md:justify-center">
+        <div class="mx-2 md:w-1/2 w-full md:relative">
+          <img
+            src="https://images.pexels.com/photos/4347368/pexels-photo-4347368.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            class="rounded-r-[120px] h-[600px] mx-2"
+          />
+
+          <div
+            class="hidden md:block absolute bottom-[-45px] right-6 w-[300px] max-w-md p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8"
+          >
+            <div class="flow-root">
+              <ul role="list" class="divide-y divide-gray-200">
+                <li class="py-3 sm:py-4">
+                  <div class="flex items-center space-x-4">
+                    <div class="p-1 rounded-full bg-purple-600">
+                      <i
+                        class="p-2 text-center fa-brands fa-facebook-messenger text-white"
+                      ></i>
+                    </div>
+                    <div class="flex-1 min-w-0">
+                      <p class="text-sm font-medium text-gray-900 truncate">
+                        Lorem Ipsum
+                      </p>
+                      <p class="text-sm text-gray-500 truncate">
+                        email@facebook.com
+                      </p>
+                    </div>
+                    <div
+                      class="inline-flex items-center text-base font-semibold text-gray-900"
+                    >
+                      fb
+                    </div>
+                  </div>
+                </li>
+                <li class="py-3 sm:py-4">
+                  <div class="flex items-center space-x-4">
+                    <div class="p-1 rounded-full bg-red-600">
+                      <i
+                        class="p-2 text-center fa-brands fa-instagram text-white"
+                      ></i>
+                    </div>
+                    <div class="flex-1 min-w-0">
+                      <p class="text-sm font-medium text-gray-900 truncate">
+                        Lorem Ipsum
+                      </p>
+                      <p class="text-sm text-gray-500 truncate">
+                        email@insta.com
+                      </p>
+                    </div>
+                    <div
+                      class="inline-flex items-center text-base font-semibold text-gray-900"
+                    >
+                      insta
+                    </div>
+                  </div>
+                </li>
+                <li class="py-3 sm:py-4">
+                  <div class="flex items-center space-x-4">
+                    <div class="p-1 rounded-full bg-sky-600">
+                      <i
+                        class="p-2 text-center fa-brands fa-linkedin-in text-white"
+                      ></i>
+                    </div>
+                    <div class="flex-1 min-w-0">
+                      <p class="text-sm font-medium text-gray-900 truncate">
+                        Lorem Ipsum
+                      </p>
+                      <p class="text-sm text-gray-500 truncate">
+                        email@linkedin.com
+                      </p>
+                    </div>
+                    <div
+                      class="inline-flex items-center text-base font-semibold text-gray-900"
+                    >
+                      Linkedin
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="mx-2 md:w-1/2 w-full mt-5">
+          <div class="text-white font-bold text-xl md:text-2xl mb-2">
+            What are the next-gen Banking experience
+          </div>
+          <div class="text-xs text-gray-300 mb-4">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti
+            ratione autem delectus ullam tenetur nostrum possimus architecto
+            odio, cupiditate quaerat.
+          </div>
+          <div class="flex mb-3">
+            <div>
+              <i class="fa-regular fa-lightbulb text-white text-2xl"></i>
+            </div>
+            <div class="md:mx-4 mx-2">
+              <div class="text-white font-medium mb-2">Lorem Ipsum</div>
+              <div class="text-xs text-gray-300">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                ad assumenda dolore sit provident a dignissimos porro.
+              </div>
+            </div>
+          </div>
+          <div class="flex mb-3">
+            <div><i class="fa-solid fa-lock text-white text-2xl"></i></div>
+            <div class="md:mx-4 mx-2">
+              <div class="text-white font-medium mb-2">Lorem Ipsum</div>
+              <div class="text-xs text-gray-300">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                ad assumenda dolore sit provident a dignissimos porro.
+              </div>
+            </div>
+          </div>
+          <div class="md:mt-[40px] mt-5">
+            <button class="animate-pulse mx-1 rounded p-2 bg-white text-black">
+              Order Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- upcomming features end-->
+
+    <div class="p-3 bg-sky-50">
+      <div class="flex justify-center my-2 w-full text-center mb-5">
+        <div class="w-full md:w-1/2">
+          <div class="mb-2 font-bold text-xl md:text-2xl lg:text-5xl">
+            It's never been easier to manage finances
+          </div>
+          <div class="text-xs text-gray-500 mb-4">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia
+            voluptates, rerum rem, debitis provident quo voluptatum, molestias
+            possimus quis.
+          </div>
+        </div>
+      </div>
+      <!-- card section end -->
+      <!-- graphs section  -->
+      <div class="md:flex md:justify-center md:gap-6">
+        <!-- card 1 -->
+        <div
+          class="md:w-[350px] w-full card rounded-2xl bg-white p-3 md:mx-3 mb-2 md:h-[400px] h-full"
+        >
+          <div class="flex justify-between gap-5 mb-5">
+            <div
+              class="p-2 px-4 text-center text-purple-600 rounded-lg shadow bg-black"
+            >
+              <i class="fa-solid fa-icons text-xl"></i>
+            </div>
+            <div>
+              <div class="font-bold text-lg">Lorem Ipsum</div>
+              <div class="text-xs text-gray-500">Lorem</div>
+            </div>
+            <div
+              class="py-2 px-4 rounded-2xl bg-purple-600 text-white text-center"
+            >
+              New
+            </div>
+          </div>
+          <div class="mb-1 font-bold text-xs text-gray-500">Lorem Ipsum</div>
+          <div class="mb-1 font-bold text-lg md:text-2xl mb-5">$8,689.59</div>
+          <div class="container mb-2">
+            <div>
+              <canvas id="myChart"></canvas>
+            </div>
+          </div>
+          <button class="mx-1 rounded p-2 bg-purple-600 text-white mb-2 w-full">
+            Order Now
+          </button>
+        </div>
+        <!-- card 1 ends -->
+        <!-- card 2 starts  -->
+        <div
+          class="card rounded-2xl mb-2 bg-white p-3 md:mx-3 md:w-[350px] w-full md:h-[400px] h-full"
+        >
+          <div class="flex justify-center my-2">
+            <i class="fa-solid fa-icons text-3xl text-yellow-400"></i>
+          </div>
+          <div
+            class="mb-1 font-normal text-xs text-center mx-auto text-gray-500"
+          >
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda,
+            repellendus delectus. maiores corrupti officiis cumque
+            reprehenderit!
+          </div>
+
+          <div class="form my-6">
+            <div class="mb-4">
+              <label
+                for="email"
+                class="block mb-2 text-sm font-medium text-gray-900"
+                >Email</label
+              >
+              <input
+                type="email"
+                id="email"
+                class="bg-yellow-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:outline-none block w-full p-2.5"
+                placeholder="John@doe.com"
+                required
+              />
+            </div>
+            <div class="mb-4">
+              <label
+                for="message"
+                class="block mb-2 text-sm font-medium text-gray-900"
+                >message
+              </label>
+              <input
+                type="text"
+                id="message"
+                class="bg-yellow-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:outline-none block w-full p-2.5"
+                placeholder="Hi how are you !"
+                required
+              />
+            </div>
+          </div>
+          <button class="mx-1 rounded p-2 bg-yellow-400 text-white mb-2 w-full">
+            Lets Get Connected
+          </button>
+        </div>
+        <!-- cards 2 ends  -->
+        <!-- card 3 start  -->
+        <div
+          class="md:relative card rounded-2xl bg-white p-3 md:mx-3 md:w-[350px] w-full mb-2 md:h-[400px] h-full"
+        >
+          <div class="text-center">
+            <div class="mb-1 font-bold text-xs text-gray-500">Lorem Ipsum</div>
+            <div class="mb-1 font-bold text-lg md:text-2xl mb-5">$3,219.35</div>
+          </div>
+
+          <div class="container mb-5">
+            <div>
+              <canvas id="myChart2"></canvas>
+            </div>
+          </div>
+          <div class="my-5 flex justify-between md:absolute md:bottom-[35px]">
+            <div class="flex items-center">
+              <div class="p-2 bg-yellow-400 animate-pulse rounded-full"></div>
+              <span class="hidden md:block font-medium text-xs mx-2"
+                >Pending Orders</span
+              >
+            </div>
+            <div class="flex items-center">
+              <div class="p-2 bg-purple-600 animate-pulse rounded-full"></div>
+              <span class="hidden md:block font-medium text-xs mx-2"
+                >Completed Orders</span
+              >
+            </div>
+          </div>
+        </div>
+        <!-- card 3 ends  -->
+      </div>
+      <!-- graphs section end  -->
+
+      <!-- reviews   -->
+      <div class="p-3 md:flex items-center justify-center mb-5">
+        <div class="md:w-1/3 w-full mx-2">
+          <div class="mb-2 font-bold text-xl md:text-2xl lg:text-3xl">
+            Our company have very impactful number
+          </div>
+          <div class="text-xs text-gray-500 mb-4">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia
+            voluptates, rerum rem, debitis provident quo voluptatum, molestias
+            possimus quis.
+          </div>
+          <div class="flex items-center mb-5 gap-6">
+            <div>
+              <div class="mb-2 font-bold">
+                99 <span class="text-red-500">%</span>
+              </div>
+              <div class="text-xs">lorem ipsum dolor.</div>
+            </div>
+            <div>
+              <div class="mb-2 font-bold">
+                205M <span class="text-green-500">+</span>
+              </div>
+              <div class="text-xs">lorem ipsum dolor.</div>
+            </div>
+          </div>
+          <div class="flex items-center mb-5 gap-6">
+            <div>
+              <div class="mb-2 font-bold">
+                100K <span class="text-yellow-500">+</span>
+              </div>
+              <div class="text-xs">lorem ipsum dolor.</div>
+            </div>
+            <div>
+              <div class="mb-2 font-bold">
+                55% <span class="text-sky-500">%</span>
+              </div>
+              <div class="text-xs">lorem ipsum dolor.</div>
+            </div>
+          </div>
+        </div>
+        <div class="md:w-1/2 w-full mx-2 md:relative">
+          <img
+            src="https://images.pexels.com/photos/927451/pexels-photo-927451.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            class="rounded md:rounded-r-3xl md:h-[500px] h-full mx-0 md:mx-2"
+          />
+
+          <!-- absolute image 1  -->
+          <div
+            class="hidden md:block md:absolute top-5 left-[-90px] shadow card rounded-full bg-white"
+          >
+            <div class="flex items-center p-2">
+              <div class="bg-purple-600 p-1 shadow rounded-full">
+                <img
+                  src="https://pngimg.com/d/industrial_worker_PNG11449.png"
+                  class="w-[25px] rounded-full"
+                />
+              </div>
+              <div class="mx-2">
+                <div class="text-black text-xl mb-1">Lorem ipsum dolor sit</div>
+                <div class="text-gray-500 text-xs">
+                  Lorem ipsum dolor sit, amet consectetur
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- absolute image 2  -->
+          <div
+            class="hidden md:block absolute bottom-5 left-[-90px] shadow card rounded-full bg-white"
+          >
+            <div class="flex items-center p-2">
+              <div class="bg-green-600 p-1 shadow rounded-full">
+                <img
+                  src="https://www.pngmart.com/files/15/Smiling-Business-Man-Standing-PNG-Image.png"
+                  class="w-[25px] rounded-full"
+                />
+              </div>
+              <div class="mx-2">
+                <div class="text-black text-xl mb-1">Lorem ipsum dolor sit</div>
+                <div class="text-gray-500 text-xs">
+                  Lorem ipsum dolor sit, amet consectetur
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- reviews  -->
+
+      <!-- our work -->
+
+      <div class="flex justify-center my-2 w-full text-center mb-5">
+        <div class="w-full md:w-1/2">
+          <div class="mb-2 font-bold text-xl md:text-2xl lg:text-5xl">
+            Take a look at our articles & resources
+          </div>
+        </div>
+      </div>
+      <!-- blogs  -->
+      <div class="md:flex md:gap-6 md:justify-center">
+        <div
+          class="max-w-sm bg-white mb-2 border border-gray-200 rounded-lg shadow"
+        >
+          <a href="#">
+            <img
+              class="rounded-t-lg"
+              src="https://vacanseats.com/wp-content/uploads/elementor/thumbs/cover-letter-q19thtm62wn0mr9n5rnbjyonbkgz22mt6qo3x3lebo.png"
+              alt=""
+            />
+          </a>
+          <div class="p-5">
+            <a href="#">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">
+                Noteworthy technology acquisitions 2021
+              </h5>
+            </a>
+            <p class="text-base mb-3 font-normal text-gray-700">
+              Here are the biggest enterprise technology acquisitions of 2021 so
+              far, in reverse chronological order.
+            </p>
+            <a
+              href="#"
+              class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-purple-700 rounded-lg hover:bg-purple-800 focus:outline-none"
+            >
+              Read more
+              <svg
+                class="w-3.5 h-3.5 ml-2"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 14 10"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 5h12m0 0L9 1m4 4L9 9"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div
+          class="max-w-sm bg-white mb-2 border border-gray-200 rounded-lg shadow"
+        >
+          <a href="#">
+            <img
+              class="rounded-t-lg"
+              src="https://vacanseats.com/wp-content/uploads/elementor/thumbs/potential-q19gi7uk6yiuy8hmn55qngmkpz8gup9x8b9c8mwzpg.png"
+              alt=""
+            />
+          </a>
+          <div class="p-5">
+            <a href="#">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">
+                Noteworthy technology acquisitions 2021
+              </h5>
+            </a>
+            <p class="text-base mb-3 font-normal text-gray-700">
+              Here are the biggest enterprise technology acquisitions of 2021 so
+              far, in reverse chronological order.
+            </p>
+            <a
+              href="#"
+              class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-purple-700 rounded-lg hover:bg-purple-800 focus:outline-none"
+            >
+              Read more
+              <svg
+                class="w-3.5 h-3.5 ml-2"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 14 10"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 5h12m0 0L9 1m4 4L9 9"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div
+          class="max-w-sm bg-white mb-2 border border-gray-200 rounded-lg shadow"
+        >
+          <a href="#">
+            <img
+              class="rounded-t-lg"
+              src="https://vacanseats.com/wp-content/uploads/elementor/thumbs/dropshipping-1-q19fyh8ko7i3515twlzsafy3moiz7iwuim29fg6mdg.png"
+              alt=""
+            />
+          </a>
+          <div class="p-5">
+            <a href="#">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">
+                Noteworthy technology acquisitions 2021
+              </h5>
+            </a>
+            <p class="text-base mb-3 font-normal text-gray-700">
+              Here are the biggest enterprise technology acquisitions of 2021 so
+              far, in reverse chronological order.
+            </p>
+            <a
+              href="#"
+              class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-purple-700 rounded-lg hover:bg-purple-800 focus:outline-none"
+            >
+              Read more
+              <svg
+                class="w-3.5 h-3.5 ml-2"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 14 10"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 5h12m0 0L9 1m4 4L9 9"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- blogs end  -->
+
+      <!-- our work ends  -->
+    </div>
+  </body>
+</html>
+
+<!-- for charts  -->
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var ctx = document.getElementById("myChart").getContext("2d");
+    var myChart = new Chart(ctx, {
+      type: "line",
+      data: {
+        labels: ["M", "T", "W", "T", "F", "S", "S"],
+        datasets: [
+          {
+            label: "sales",
+            data: [12, 19, 3, 17, 10, 15, 17],
+            backgroundColor: "#f3e8ff",
+            fill: true,
+            pointRadius: 0,
+            tension: 0.3,
+          },
+        ],
+      },
+      options: {
+        scales: {
+          x: {
+            display: false, // Hide x-axis and its labels
+            grid: {
+              display: false, // Hide x-axis grid lines
+            },
+          },
+          y: {
+            display: false, // Hide y-axis and its labels
+            grid: {
+              display: false, // Hide y-axis grid lines
+            },
+          },
+        },
+        plugins: {
+          legend: {
+            display: false, // Hide the legend
+          },
+        },
+      },
+    });
+  });
+
+  // bar chart
+  // bar chart
+  var ctx = document.getElementById("myChart2").getContext("2d");
+  var myChart2 = new Chart(ctx, {
+    type: "bar",
+    data: {
+      labels: ["M", "T", "W", "T", "F", "S", "S"],
+      datasets: [
+        {
+          label: "apples",
+          data: [12, 19, 3, 17, 28, 24, 7],
+          backgroundColor: "#9333ea",
+        },
+
+        {
+          label: "oranges",
+          data: [30, 29, 5, 5, 20, 3, 10],
+          backgroundColor: "#facc15",
+        },
+        {
+          label: "bannanas",
+          data: [2, 9, 3, 5, 18, 20, 13],
+          backgroundColor: "#030712",
+        },
+      ],
+    },
+    options: {
+      scales: {
+        x: {
+          display: false, // Hide x-axis and its labels
+        },
+        y: {
+          display: false, // Hide y-axis and its labels
+        },
+      },
+      plugins: {
+        legend: {
+          display: false, // Hide the legend
+        },
+      },
+    },
+  });
+</script>
