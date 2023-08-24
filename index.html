@@ -14,6 +14,12 @@
     />
     <!-- for charts  -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- for animations  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+    />
   </head>
   <body>
     <style>
@@ -22,7 +28,10 @@
       }
     </style>
     <!-- header section  -->
-    <div class="flex justify-center my-2 w-full text-center mb-5">
+    <div
+      class="flex justify-center my-2 w-full text-center mb-5"
+      data-aos="slide-left"
+    >
       <div class="w-full md:w-1/2">
         <div class="mb-2 font-bold text-xl md:text-2xl lg:text-5xl">
           The most transparent & secure banking ever
@@ -46,7 +55,7 @@
     </div>
     <!-- header section ends  -->
     <!--  header image section  -->
-    <div class="p-5 md:flex md:justify-center mb-5">
+    <div class="p-5 md:flex md:justify-center mb-5" data-aos="fade-zoom-in">
       <div class="md:relative">
         <img
           src="https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -119,7 +128,7 @@
     <!-- header image section ends  -->
 
     <!-- features section  -->
-    <div class="p-3 bg-sky-50">
+    <div class="p-3 bg-sky-50" data-aos="slide-right">
       <!-- companies logo  -->
       <div class="p-5 mb-5 flex flex-wrap justify-center gap-16 items-center">
         <div class="mx-2 text-lg font-bold">Trusted by</div>
@@ -266,16 +275,16 @@
     <!-- upcomming features -->
     <div class="bg-black p-5 h-full md:h-[700px]">
       <div class="md:flex md:items-center md:justify-center">
-        <div class="mx-2 md:w-1/2 w-full md:relative">
+        <div class="mx-2 md:w-1/2 w-full md:relative" data-aos="zoom-in" >
           <img
             src="https://images.pexels.com/photos/4347368/pexels-photo-4347368.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             class="rounded-r-[120px] h-[600px] mx-2"
           />
 
-          <div
-            class="hidden md:block absolute bottom-[-45px] right-6 w-[300px] max-w-md p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8"
+          <div data-aos="slide-right"
+             class="hidden md:block absolute bottom-[-45px] right-6 w-[300px] max-w-md p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8"
           >
-            <div class="flow-root">
+            <div class="flow-root" >
               <ul role="list" class="divide-y divide-gray-200">
                 <li class="py-3 sm:py-4">
                   <div class="flex items-center space-x-4">
@@ -348,15 +357,18 @@
           </div>
         </div>
         <div class="mx-2 md:w-1/2 w-full mt-5">
-          <div class="text-white font-bold text-xl md:text-2xl mb-2">
+          <div
+            class="text-white font-bold text-xl md:text-2xl mb-2"
+            data-aos="zoom-in"
+          >
             What are the next-gen Banking experience
           </div>
-          <div class="text-xs text-gray-300 mb-4">
+          <div class="text-xs text-gray-300 mb-4" data-aos="zoom-out">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti
             ratione autem delectus ullam tenetur nostrum possimus architecto
             odio, cupiditate quaerat.
           </div>
-          <div class="flex mb-3">
+          <div class="flex mb-3" data-aos="slide-left">
             <div>
               <i class="fa-regular fa-lightbulb text-white text-2xl"></i>
             </div>
@@ -368,7 +380,7 @@
               </div>
             </div>
           </div>
-          <div class="flex mb-3">
+          <div class="flex mb-3" data-aos="fade-zoom-in">
             <div><i class="fa-solid fa-lock text-white text-2xl"></i></div>
             <div class="md:mx-4 mx-2">
               <div class="text-white font-medium mb-2">Lorem Ipsum</div>
@@ -403,7 +415,7 @@
       </div>
       <!-- card section end -->
       <!-- graphs section  -->
-      <div class="md:flex md:justify-center md:gap-6">
+      <div class="md:flex md:justify-center md:gap-6" data-aos="fade-zoom-in">
         <!-- card 1 -->
         <div
           class="md:w-[350px] w-full card rounded-2xl bg-white p-3 md:mx-3 mb-2 md:h-[400px] h-full"
@@ -520,7 +532,10 @@
       <!-- graphs section end  -->
 
       <!-- reviews   -->
-      <div class="p-3 md:flex items-center justify-center mb-5">
+      <div
+        class="p-3 md:flex items-center justify-center mb-5"
+        data-aos="slide-right"
+      >
         <div class="md:w-1/3 w-full mx-2">
           <div class="mb-2 font-bold text-xl md:text-2xl lg:text-3xl">
             Our company have very impactful number
@@ -609,7 +624,10 @@
 
       <!-- our work -->
 
-      <div class="flex justify-center my-2 w-full text-center mb-5">
+      <div
+        class="flex justify-center my-2 w-full text-center mb-5"
+        data-aos="zoom-in"
+      >
         <div class="w-full md:w-1/2">
           <div class="mb-2 font-bold text-xl md:text-2xl lg:text-5xl">
             Take a look at our articles & resources
@@ -617,7 +635,7 @@
         </div>
       </div>
       <!-- blogs  -->
-      <div class="md:flex md:gap-6 md:justify-center">
+      <div class="md:flex md:gap-6 md:justify-center" data-aos="zoom-in">
         <div
           class="max-w-sm bg-white mb-2 border border-gray-200 rounded-lg shadow"
         >
@@ -840,5 +858,15 @@
         },
       },
     },
+  });
+</script>
+
+<!-- for animation  -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+
+    delay: 100,
   });
 </script>
